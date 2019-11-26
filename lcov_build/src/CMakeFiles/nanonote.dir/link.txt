@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -O0 -Wall -fprofile-arcs -ftest-coverage   CMakeFiles/nanonote.dir/nanonote_autogen/mocs_compilation.o CMakeFiles/nanonote.dir/main.o  -o nanonote libnanonotelib.a ../3rdparty/singleapplication/libsingleapplication.a /usr/lib64/libQt5Widgets.so.5.12.5 /usr/lib64/libQt5Gui.so.5.12.5 /usr/lib64/libQt5Network.so.5.12.5 /usr/lib64/libQt5Core.so.5.12.5 
