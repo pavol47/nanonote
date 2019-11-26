@@ -54,7 +54,7 @@ TEST_CASE("SearchAddToLine")
         search->initialize("Control");
        REQUIRE(search->getPositionWords().size() == 3);
     }
-    SECTION("countsWord") {
+    SECTION("countsWord ") {
         search->initialize("ahoj");
         REQUIRE(search->getPositionWords().size() == 0);
     }
