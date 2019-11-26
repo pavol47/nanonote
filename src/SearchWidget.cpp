@@ -147,6 +147,16 @@ void SearchWidget::searchPositionsWordsInDocument(const QString & searchString, 
     }
 }
 
+std::vector<int> SearchWidget::getPositionWords() const
+{
+    return mPositionWords;
+}
+
+int SearchWidget::getCurrentSelectedWord() const
+{
+    return mCurrentSelectedWord;
+}
+
 void SearchWidget::selectWord()
 {
     QTextDocument *document = mTextEdit->document();

@@ -22,12 +22,18 @@ class SearchWidget : public QWidget
         void initialize(const QString & text);
         void uninitialize();
 
+        int getCurrentSelectedWord() const;
+
+        std::vector<int> getPositionWords() const;
+
     signals:
         void closeSearchDialog();
 
-    private:
+    protected:
         void onNextButtonClicked();
         void onPreviousButtonClicked();
+
+    private:
         void documentChange();
         void closeSearch();
         void selectWord();

@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "nanonote_autogen"
+  "CMakeFiles/nanonote_autogen.dir/AutogenOldSettings.txt"
+  "nanonotelib_autogen"
+  "CMakeFiles/nanonotelib_autogen.dir/AutogenOldSettings.txt"
+  "qrc_nanonote.cpp"
+  "moc_BaseSettings.cpp"
+  "BaseSettings.h"
+  "BaseSettings.cpp"
+  "qrc_translations.cpp"
+  "nanonote_de.qm"
+  "nanonote_es.qm"
+  "nanonote_fr.qm"
+  "../../src/translations/nanonote_de.ts"
+  "CMakeFiles/nanonote_de.ts_lst_file"
+  "../../src/translations/nanonote_es.ts"
+  "CMakeFiles/nanonote_es.ts_lst_file"
+  "../../src/translations/nanonote_fr.ts"
+  "CMakeFiles/nanonote_fr.ts_lst_file"
+  "CMakeFiles/nanonotelib.dir/nanonotelib_autogen/mocs_compilation.o"
+  "CMakeFiles/nanonotelib.dir/IndentExtension.o"
+  "CMakeFiles/nanonotelib.dir/LinkSyntaxHighlighter.o"
+  "CMakeFiles/nanonotelib.dir/LinkExtension.o"
+  "CMakeFiles/nanonotelib.dir/MainWindow.o"
+  "CMakeFiles/nanonotelib.dir/Settings.o"
+  "CMakeFiles/nanonotelib.dir/SettingsDialog.o"
+  "CMakeFiles/nanonotelib.dir/TextEdit.o"
+  "CMakeFiles/nanonotelib.dir/WheelZoomExtension.o"
+  "CMakeFiles/nanonotelib.dir/SearchWidget.o"
+  "CMakeFiles/nanonotelib.dir/qrc_nanonote.o"
+  "CMakeFiles/nanonotelib.dir/moc_BaseSettings.o"
+  "CMakeFiles/nanonotelib.dir/BaseSettings.o"
+  "CMakeFiles/nanonotelib.dir/qrc_translations.o"
+  "libnanonotelib.pdb"
+  "libnanonotelib.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nanonotelib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

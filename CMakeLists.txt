@@ -11,6 +11,8 @@ add_subdirectory(3rdparty/singleapplication)
 add_subdirectory(3rdparty/catch2)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Woverloaded-virtual")
+set(CMAKE_CXX_FLAGS "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
+set(CMAKE_CXX_OUTPUT_EXTENSION_REPLACE 1)
 set(CMAKE_CXX_STANDARD 17)
 enable_testing()
 

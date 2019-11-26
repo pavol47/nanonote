@@ -3,6 +3,8 @@ add_executable(tests
     IndentExtensionTest.cpp
     LinkSyntaxHighlighterTest.cpp
     TestUtils.cpp
+    FakeSearch.cpp
+    SearchTest.cpp
 )
 
 target_link_libraries(tests
